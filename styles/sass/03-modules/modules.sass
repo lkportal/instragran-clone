@@ -1,0 +1,43 @@
+@use '../02-base/utilities'
+@use '../02-base/variables'
+.conteiner-basic-login
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding: 1rem
+    @include utilities.border(variables.$light-gray,1px)
+    padding: 0 3rem
+.itens-login-line
+    display: flex
+.item-login
+    display: flex 
+    flex-direction: column
+    align-items: center 
+    
+.item-login .style-login-font
+    font-size: 1.2rem
+    padding: 5px,
+    font-size: 15px
+    margin-bottom: 1rem
+.item-login img
+    position: relative
+    top: 45px
+    right: 22px 
+.item-login .link-facebook      
+    font-size: 12px
+    margin-bottom: 1rem
+.sign-item
+    font-size: 14px
+    text-align: center 
+    padding: 1rem 
+.sign-item a 
+    color: variables.$blue
+    font-weight: 500      
+.img-app
+    display: flex 
+.img-app img
+    width: 100px 
+    padding: 0 0.5rem   
+.information-app p 
+    text-align: center 
+    font-size: 14px   

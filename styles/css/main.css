@@ -1,0 +1,160 @@
+@import url("https://fonts.cdnfonts.com/css/billabong");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Billabong", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: #262626;
+}
+
+h1 {
+  padding: 0;
+  margin: 20px auto;
+}
+
+input {
+  width: 250px;
+  height: 1.5rem;
+  margin: 3px auto;
+  padding: 0.5rem;
+  border: solid #dbdbdb 1px;
+}
+
+input::placeholder {
+  font-size: 0.6rem;
+  position: relative;
+  bottom: 15px;
+}
+input::placeholder:active {
+  font-size: 0.5rem;
+  position: relative;
+  bottom: 10px;
+}
+
+button {
+  text-align: center;
+  background-color: #0095f6;
+  border-radius: 5px;
+  border: solid 1px #0095f6;
+  color: #fff;
+  width: 100%;
+  height: 35px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+hr {
+  width: 100px;
+  height: 0;
+  margin-top: 25px;
+}
+
+hr + p {
+  margin: 18px 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a img {
+  width: 25px;
+  position: relative;
+  top: 10px;
+}
+
+.conteiner-basic-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border: solid #dbdbdb 1px;
+  padding: 0 3rem;
+}
+
+.itens-login-line {
+  display: flex;
+}
+
+.item-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-login .style-login-font {
+  font-size: 1.2rem;
+  padding: 5px;
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+
+.item-login img {
+  position: relative;
+  top: 45px;
+  right: 22px;
+}
+
+.item-login .link-facebook {
+  font-size: 12px;
+  margin-bottom: 1rem;
+}
+
+.sign-item {
+  font-size: 14px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.sign-item a {
+  color: #0095f6;
+  font-weight: 500;
+}
+
+.img-app {
+  display: flex;
+}
+
+.img-app img {
+  width: 100px;
+  padding: 0 0.5rem;
+}
+
+.information-app p {
+  text-align: center;
+  font-size: 14px;
+}
+
+.conteiner-main-phone-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.conteiner-section-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteiner-app {
+  display: grid;
+  grid-template-columns: repeat(1fr, 2);
+  align-items: center;
+}
+
+.conteiner-sign {
+  border: solid #dbdbdb 1px;
+  width: 366px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,44 @@
+@use './variables'
+@use './utilities'
+body
+    @extend %font-geral
+h1
+    @extend %titleInstagram
+    padding: 0
+    margin: 20px auto
+input
+    width: 250px
+    height: 1.5rem 
+    margin: 3px auto 
+    padding: 0.5rem
+    @include utilities.border(variables.$light-gray,1px)
+input::placeholder
+    font-size: 0.6rem
+    position: relative
+    bottom: 15px
+    &:active
+        font-size: 0.5rem
+        position: relative
+        bottom: 10px  
+button
+     text-align: center
+     background-color: variables.$blue 
+     border-radius: 5px 
+     border: solid 1px variables.$blue
+     color: #fff
+     width: 100% 
+     height: 35px
+     font-size: 1rem  
+     margin-top: 10px
+hr
+    width: 100px
+    height: 0
+    margin-top: 25px
+hr + p
+    margin: 18px 5px        
+a 
+    text-decoration: none
+a img
+    width: 25px  
+    position: relative
+    top: 10px  
