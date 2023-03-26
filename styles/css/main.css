@@ -121,13 +121,30 @@ a img {
 }
 
 .img-app img {
-  width: 100px;
+  width: 110px;
   padding: 0 0.5rem;
+  cursor: pointer;
 }
 
 .information-app p {
   text-align: center;
   font-size: 14px;
+}
+
+.conteiner-footer-links .list {
+  list-style: none;
+  display: flex;
+}
+
+.list li a {
+  font-size: 12px;
+  padding: 1rem;
+  color: #8e8e8e;
+}
+
+.item-meta p {
+  font-size: 14px;
+  color: #8e8e8e;
 }
 
 .conteiner-main-phone-login {
@@ -155,6 +172,13 @@ a img {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+}
+
+.conteiner-footer-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
