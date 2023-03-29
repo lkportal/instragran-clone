@@ -147,6 +147,23 @@ a img {
   color: #8e8e8e;
 }
 
+.item-img-phone {
+  position: relative;
+  margin-left: 100px;
+}
+.item-img-phone .imgSlid {
+  position: absolute;
+  z-index: 0;
+  right: 20px;
+  bottom: -305px;
+}
+.item-img-phone .imgAleternate {
+  position: absolute;
+  z-index: 1;
+  bottom: -238px;
+  right: 79px;
+}
+
 .conteiner-main-phone-login {
   display: flex;
   justify-content: center;
