@@ -134,6 +134,8 @@ a img {
 .conteiner-footer-links .list {
   list-style: none;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .list li a {
@@ -164,6 +166,19 @@ a img {
   right: 79px;
 }
 
+@media screen and (max-width: 1140px) {
+  .item-img-phone {
+    display: none;
+  }
+}
+@media screen and (max-width: 440px) {
+  .conteiner-basic-login {
+    border: solid #FFF 1px;
+  }
+  .conteiner-sign {
+    border: solid #FFF 1px;
+  }
+}
 .conteiner-main-phone-login {
   display: flex;
   justify-content: center;

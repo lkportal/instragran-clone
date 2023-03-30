@@ -1,0 +1,11 @@
+@use '../02-base/utilities'
+@use '../02-base/variables'
+@media screen and (max-width:1140px) 
+    .item-img-phone
+        display: none 
+
+@media screen and (max-width:440px)        
+    .conteiner-basic-login
+        @include utilities.border(variables.$white,1px)
+    .conteiner-sign
+        @include utilities.border(variables.$white,1px)    
